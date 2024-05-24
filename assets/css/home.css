@@ -1,0 +1,82 @@
+.home{
+    margin-bottom: 0;
+    background-image: url(https://wedding.nicdark.com/intro/wp-content/uploads/sites/8/2023/03/paral-04-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4em;
+    min-height: 350px;
+    padding: 5em 10em;
+    
+}
+.home .try-for-free, .home .demo {
+	border: 1px solid #fff;
+	text-align: center;
+	margin: auto;
+	padding: 0 5em;
+	margin-bottom: 1em;
+	justify-content: space-between;
+	flex-direction: column;
+	display: flex;
+	margin-top: 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.home h1{
+    margin-top: 3em;
+}
+.home .try-for-free{
+    flex-basis: 21%;
+}
+
+.home .demo{
+    border-radius: 17px;
+    flex-basis: 15%;
+}
+
+
+.home .btn-holder {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 18px;
+  }
+
+  .home a {
+	background-color: #282828;
+	border: none;
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 10px;
+	padding: 19px 50px;
+	min-width: 79px;
+	transition: all .3s ease-in-out;
+}
+
+  .home a:hover{
+    color: #ffffff;
+    background-color: #e49497;
+  }
+
+  .companies {
+	margin-bottom: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 4em;
+    text-align: center;
+    border-top: 1px solid #fff;
+    }
+
+  .companies ul {
+    list-style: none;
+  }
+  .companies ul li{
+    display: inline-block;
+  }
+
+
+
+
