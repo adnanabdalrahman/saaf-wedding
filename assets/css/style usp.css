@@ -5,7 +5,7 @@
 .usp h2{
     color: #FAA958;
 }
-.reasons{
+.usp .reasons{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -16,7 +16,7 @@
     font-size: large;
     font-weight: bolder;
 }
-i{
+.usp .reasons i{
    font-size: 2em !important; 
    color: #FAA958;
 }
