@@ -1,0 +1,22 @@
+.prices {
+  padding: 4em;
+  width: 100vw;
+  border: 1px solid #000;
+  margin: 1em 0;
+}
+
+.prices ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
+.prices ul li {
+  flex-basis: calc(30% - 20px);
+  list-style: none;
+  text-align: center;
+  background-color: #6d4c7c;
+  border: 1px solid #fff;
+}
